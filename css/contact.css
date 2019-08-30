@@ -1,0 +1,30 @@
+.contact tr {
+  height: 7rem;
+  text-align: right;
+}
+
+.contact td {
+  text-align: left;
+}
+
+.contact th {
+  width: 150px;
+}
+
+input[type="text"],
+input[type="email"],
+form textarea {
+  width: 480px;
+}
+
+form .input_submit {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: #90EE90
+}
+
+form .input_submit .button:hover{
+  opacity: 0.6;
+}
