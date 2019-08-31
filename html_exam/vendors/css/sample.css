@@ -1,0 +1,120 @@
+html {
+
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  height: 100%;
+}
+
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+
+/* ここから */
+header {
+  background-color: #000080;
+  height: 50px;
+  font-size: 1.0rem;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul.top_menu {
+  float: left;
+}
+
+.top_menu li {
+  float: left;
+}
+ul .top_menu_right {
+  float: right;
+}
+.top_menu_right li {
+  float: right;
+}
+
+
+header ul a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+header li {
+  list-style: none;
+}
+
+header ul:after {
+}
+/* ここまでがheader部分の実装 */
+.main-header {
+  position: relative;
+  height: 200px;
+}
+
+
+.main-header .header_image {
+  position: absolute;
+   top: 50%;
+   left: 47%;
+   -webkit-transform : translate(-50%,-50%);
+   transform : translate(-50%,-50%);
+   width: 100px;
+
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+}
+
+.main-header img {
+  width: 200px;
+}
+
+.about {
+/* About Achieve部分の実装 */
+}
+
+/* ここから */
+.wrapper {
+
+}
+.function {
+  background-color: #C0C0C0;
+  width: 100%
+}
+
+.function-images {
+  width: 1120px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.function-image {
+  float: left;
+  padding: 40px 75px;
+}
+/* ここまでがfunction部分の実装 */
+
+footer {
+  padding-top: 10px;
+  background-color: #000080;
+/* footer部分の実装 */
+}
+
+.footer p {
+  color: white;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
